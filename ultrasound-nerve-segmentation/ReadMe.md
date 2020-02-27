@@ -7,7 +7,7 @@
       - Save the processed data as a .npy file and upload it to Google Drive.
   2. Creat U-Net Model: 
       - In this project, we use the U-Net architecture to build the model, as shown in the following figure:
-      ![alt text](https://drive.google.com/uc?id=1JU4y_mMTNPkax0HhSEhUuzpcGuZQ2jj7)
+        ![alt text](https://drive.google.com/uc?id=1JU4y_mMTNPkax0HhSEhUuzpcGuZQ2jj7)
       - The Optimizer is **Adam(lr=1e-5)**
       - The loss function is **dice_coef_loss**
       - The metrics is **dice_coef**
