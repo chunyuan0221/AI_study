@@ -8,6 +8,7 @@
   2. Creat U-Net Model: 
       - In this project, we use the U-Net architecture to build the model, as shown in the following figure:
         ![alt text](https://drive.google.com/uc?id=1JU4y_mMTNPkax0HhSEhUuzpcGuZQ2jj7)
+      - Framework: Keras
       - The Optimizer is **Adam(lr=1e-5)**
       - The loss function is **dice_coef_loss**
       - The metrics is **dice_coef**
@@ -23,3 +24,7 @@
   2. On validation set: **val_loss: -0.3869 - val_dice_coef: 0.3869**
   3. The score on Kaggle:
     ![alt text](https://drive.google.com/uc?id=1nM8_n1NaTY6nfe_gUtzKuNKxH9eJy303)
+    
+### Referance
+1. [Kaggle complete: Ultrasound Nerve Segmentation](https://www.kaggle.com/c/ultrasound-nerve-segmentation/overview)
+2. [jocicmarko github](https://github.com/jocicmarko/ultrasound-nerve-segmentation)
