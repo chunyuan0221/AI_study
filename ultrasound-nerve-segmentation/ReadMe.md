@@ -17,3 +17,9 @@
       - Save the prediction results of each test data as a image file.
   4. Submit the result to Kaggle
       - Save the test data results to the file format requested by Kaggle.
+
+- Result:
+  1. On training set: **loss: -0.5608 - dice_coef: 0.5608**
+  2. On validation set: **val_loss: -0.3869 - val_dice_coef: 0.3869**
+  3. The score on Kaggle:
+    ![alt text](https://drive.google.com/uc?id=1nM8_n1NaTY6nfe_gUtzKuNKxH9eJy303)
