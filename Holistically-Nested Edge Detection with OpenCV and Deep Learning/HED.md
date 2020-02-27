@@ -10,8 +10,7 @@
     - Purpose: Show you how to use Holistically-Nested Edge Detection in your own projects.
     - Model Framework: Cafee
     - Result: Left(Oringinal)、Center(Canny)、Right(HED)
-      ![alt text](https://drive.google.com/uc?id=14fSmXGTpGStKYSyW_FkQsZBKJtdvGYqh)
-      ![alt text1](https://drive.google.com/uc?id=19QpxPtxY6S0JWx_oZCFgmYMCxlGTiylN)
+      ![alt text](https://drive.google.com/uc?id=14fSmXGTpGStKYSyW_FkQsZBKJtdvGYqh)![alt text1](https://drive.google.com/uc?id=19QpxPtxY6S0JWx_oZCFgmYMCxlGTiylN)
       
 - Essential knowledge(When I was working on HED project, I read the following topics):
   1. [Python, argparse, and command line arguments](https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/)
@@ -19,8 +18,7 @@
       - Before use this function code, not only install opencv you also need to install: **pip install imutils**
       - Purpose: 
         1. Data pre-processing.
-        2. Use cv2.dnn.blobFromImage() to convert the input image into the format required by Cafee framework.
-       ![alt text2](https://drive.google.com/uc?id=1G3IqZmpci63l76nRA7efRea2oqINWiYw)
+        2. Use cv2.dnn.blobFromImage() to convert the input image into the format required by Cafee framework.![alt text2](https://drive.google.com/uc?id=1G3IqZmpci63l76nRA7efRea2oqINWiYw)
       - Code: blob = cv2.dnn.blobFromImage(image, scalefactor=1.0, size, mean, swapRB=True)
         1. image: The image you want preprocessing.
         2. scalefactor: The scale of image enlarged or reduced.
