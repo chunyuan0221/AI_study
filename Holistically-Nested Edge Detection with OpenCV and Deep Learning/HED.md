@@ -12,7 +12,7 @@
   - Result: Left(Oringinal)、Center(Canny)、Right(HED)
   - ![alt text](https://drive.google.com/uc?id=14fSmXGTpGStKYSyW_FkQsZBKJtdvGYqh)
   - ![alt text1](https://drive.google.com/uc?id=19QpxPtxY6S0JWx_oZCFgmYMCxlGTiylN)
-
+  
 #### Essential knowledge(When I was working on HED project, I read the following topics):
 1. [Python, argparse, and command line arguments](https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/)
 
