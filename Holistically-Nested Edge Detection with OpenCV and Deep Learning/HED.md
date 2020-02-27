@@ -21,7 +21,7 @@
       - Purpose: 
         1. Data pre-processing.
         2. Use cv2.dnn.blobFromImage() to convert the input image into the format required by Cafee framework.
-        ![alt text](https://drive.google.com/uc?id=1G3IqZmpci63l76nRA7efRea2oqINWiYw)
+           ![alt text](https://drive.google.com/uc?id=1G3IqZmpci63l76nRA7efRea2oqINWiYw)
       - Code: blob = cv2.dnn.blobFromImage(image, scalefactor=1.0, size, mean, swapRB=True)
         1. image: The image you want preprocessing.
         2. scalefactor: The scale of image enlarged or reduced.
